@@ -59,6 +59,10 @@
             <artifactId>org.wso2.carbon.identity.central.log.mgt</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.wso2.carbon.identity.framework</groupId>
+            <artifactId>org.wso2.carbon.identity.user.self.registration</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.wso2.carbon.identity.governance</groupId>
             <artifactId>org.wso2.carbon.identity.governance</artifactId>
         </dependency>
@@ -151,6 +155,7 @@
                             org.wso2.carbon.identity.captcha.*; version="${identity.governance.imp.pkg.version.range}",
                             javax.servlet.*; version="${imp.pkg.version.javax.servlet}",
                             org.owasp.encoder; version="${encoder.wso2.import.version.range}",
+                            org.wso2.carbon.identity.user.self.registration.*; version="${carbon.identity.framework.imp.pkg.version.range}"
                         </Import-Package>
                     </instructions>
                 </configuration>
